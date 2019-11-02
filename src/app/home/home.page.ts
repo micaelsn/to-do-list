@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  text = 'hiii';
+
   constructor() {}
 
+  changeText() {
+    this.text = 'mudou';
+  }
 }
